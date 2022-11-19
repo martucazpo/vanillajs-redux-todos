@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/libraries/bootstrap.min.css" />
+    <title>A Vanillajs Redux Project</title>
+</head>
+<body>
+    <main>
+        <section>
+            <div>
+                <form id="addTaskForm">
+                    <label for="inputTask">Enter Task</label>
+                    <input name="task" type="text" id="inputTask"/>
+                    <button type="submit">ADD</button>
+                </form>
+            </div>
+        </section>
+        <section>
+            <div id="displayDiv" ></div>
+        </section>
+    </main>
+    <script src="./assets/libraries/redux-thunk.js" ></script>
+    <script src="./assets/libraries/redux.js"></script>
+    <script src="./assets/script.js" type="module"></script>
+</body>
+</html>
